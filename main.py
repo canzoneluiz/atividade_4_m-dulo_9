@@ -1,20 +1,20 @@
 def main():
-    print("Bem-vindo à calculadora interativa")
-    while true:
-        print("\nEscolha uma operção")
-        print("1-soma")
-        print("2-subtração")
-        print("3-multiplicação")
-        print("4-divisão")
-        print("5-sair")
-
-        opcao = input("digite o número da operação desejada: ")
-
+    print("Bem-vindo à Calculadora Interativa!")
+    while True:
+        print("\nEscolha uma operação:")
+        print("1 - Soma")
+        print("2 - Subtração")
+        print("3 - Multiplicação")
+        print("4 - Divisão")
+        print("5 - Sair")
+        
+        opcao = input("Digite o número da operação desejada: ")
+        
         if opcao == '5':
-            print("Encerrando a calculadora, até a próxima")
+            print("Encerrando a calculadora. Até a próxima!")
             break
-
-        if opcao in ['1','2','3','4]
+        
+        if opcao in ['1', '2', '3', '4']:
             try:
                 num1 = float(input("Digite o primeiro número: "))
                 num2 = float(input("Digite o segundo número: "))
